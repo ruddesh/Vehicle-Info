@@ -26,7 +26,7 @@ class Users extends Db
 	// public function SearchV($vno)
 	// {	
 	// 	if (isset($_POST['search'])) {
-	// 		$vno = $_POST['nihao'];
+	// 		$vno = $_POST['VehVar'];
 	// 		$sql = "SELECT * FROM memmber WHERE vehicle_no = $vno";
 	// 		$stmt = $this->connect()->prepare($sql);
 	// 		$stmt->execute();
