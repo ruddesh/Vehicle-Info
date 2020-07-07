@@ -19,7 +19,7 @@
             //$("#get").text(vehNo);
 
             $.post("form.php", {
-            	nihao: vehNo
+            	VehVar: vehNo
             }, function(data, status){
             	$("#test").html(data);	
             });
@@ -49,27 +49,4 @@
 </html>
 
 
-	<!-- <script>
-		$(document).ready(function(){
-			$("input").keyup(function(){
-				var name = $("input").val();
-				console.log(name);
-				$.post("form.php", {
-					suggestion: name
-				}, function(data, status){
-					$("#test").html(data);
-					console.log(data);
-				});
-			});
-		});
-	</script> -->
-	<!-- <script>
-		$(document).ready(function(){
-			$("input").click(function(event){
-				var vn = $("$selectVn");
-				console.log(vn);
-			});
-		});
-	</script> -->
-	<!-- <input type="text" name="name">
-	<p id="test"></p> -->
+	
