@@ -41,9 +41,7 @@
 
 	<div id="test" style="margin: 50px">
 	
-		<?php if (!empty($name)): ?>
-			
-		<?php endif ?>
+		
 	</div>	
 </body>
 </html>
